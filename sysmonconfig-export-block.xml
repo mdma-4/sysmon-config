@@ -356,6 +356,8 @@
 			<Image condition="begin with">C:\Program Files\OMS Gateway\</Image>
 			<!-- SECTION: PRTG -->
 			<Image condition="is">C:\Program Files (x86)\PRTG Network Monitor\PRTG Probe.exe</Image>
+			<!-- SECTION: KFOC Tuning -->
+			<DestinationIp condition="is">10.10.110.54</DestinationIp> <!--Windows Event Collector-->
 		</NetworkConnect>
 	</RuleGroup>
 
