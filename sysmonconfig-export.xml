@@ -401,7 +401,7 @@
 			<!-- SECTION: PRTG -->
 			<Image condition="is">C:\Program Files (x86)\PRTG Network Monitor\PRTG Probe.exe</Image>
 			<!-- SECTION: KFOC Tuning -->
-			<DestinationIp condition="is">10.10.110.54</DestinationIp> <!--Windows Event Collector-->
+			<DestinationIp condition="is">10.10.110.56</DestinationIp> <!--Windows Event Collector-->
 		</NetworkConnect>
 	</RuleGroup>
 
@@ -1138,6 +1138,7 @@
 			<QueryName condition="is">clients5.google.com</QueryName> <!--Google-->
 			<QueryName condition="is">clients6.google.com</QueryName> <!--Google-->
 			<QueryName condition="is">safebrowsing.googleapis.com</QueryName> <!--Google-->
+			<QueryName condition="end with">.conferdeploy.net</QueryName> <!--Carbon Black Cloud--> 
 			<!--Goodlist CDN-->
 			<QueryName condition="end with">.akadns.net</QueryName> <!--AkamaiCDN, extensively used by Microsoft | Microsoft default exclusion-->
 			<QueryName condition="end with">.netflix.com</QueryName>
